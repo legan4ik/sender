@@ -1,5 +1,6 @@
 import random
 
+
 def generate(count):
     """This module will generate values for requests and write them into a file
     Alternatively we can read from db or from file here.

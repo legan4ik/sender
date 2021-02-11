@@ -2,7 +2,7 @@ import sys
 import sender
 
 """This is the file to run
-Prerequisites (linux): 
+Prerequisites (ubuntu):
 apt-get install python-pip python-dev -y
 pip install virtualenv
 virtualenv venv
