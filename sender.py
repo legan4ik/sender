@@ -14,7 +14,7 @@ class Sender:
             raise Exception("Please specify number of requests and endpoint")
         # basic validation of url
         if not self.endpoint.startswith('http://') or \
-                not self.endpoint.startswith('http://'):
+                not self.endpoint.startswith('https://'):
             raise Exception("Incorrect endpoint")
         if type(count) == int:
             self.lst = generator.generate(self.count)
